@@ -2,26 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.AboutPage{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.giaca{
+  background-image: url('./Image/Aca.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+
+}
+.gigi{
+  background-image: url('./Image/Bero.jpg');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.gifrelan{
+  background-image: url('./Image/GiWeb.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+
+}
+.relogo{
+  background-image: url('./Image/React\ \(4\).png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nelogo{
+  background-image: url('./Image/React\ \(4\).png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+
+}
+.github{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  flex-direction: column;
+  gap: 10px;  
+  color: white;
+}
+.talogo{
+  background-image: url('./Image/CSS3.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+.htlogo{
+  background-image: url('./Image/Html\ 5.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+.csslogo{
+  background-image: url('./Image/CSS3.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+.jalogo{
+  background-image: url('./Image/JavaScript.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+.frlogo{
+  background-image: url('./Image/CSS3.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+.frontend{
+  border-radius: 13px;
+  padding:3px;
+ 
+
+
+
+}
+
+
+body{
+  background-color: #111827 ;
 }
