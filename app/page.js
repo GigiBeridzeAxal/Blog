@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react';
+
 import Image from 'next/image'
 import Dashoard from './components/Dashoard'
 import Header from './components/Header'
