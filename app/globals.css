@@ -96,3 +96,251 @@
 body{
   background-color: #111827 ;
 }
+
+.contact{
+
+  margin: 20px;
+  padding: 10px;
+
+}
+.maincontact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px; 
+}
+.info{
+  padding: 10px;
+  border-radius: 5px;
+  background-color:  #2563eb;
+  color: white;
+  text-align: center;
+  min-height: 300px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+.desc{
+  max-width: 250px;
+}
+.sendcontact{
+  background-color: #334155;
+  min-height: 300px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  min-width: 400px;
+}
+.sendcontact .tittle{
+  display: flex;
+  align-items: start;
+  padding: 10px;
+}
+.inputs{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.inputs .mobile{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.inputs input{
+  color: black;
+}
+.Message{
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.sendbtn{
+  background-color: white;
+}
+.contact{
+  display: flex;
+   
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact div{
+  margin: 10px;
+}
+.contact button{
+
+  width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.sendcontact{
+  border-radius: 5px;
+}
+.contactittle{
+  color:white;
+  font-size: 24px;
+  margin: 20px;
+  font-weight: 700;
+}
+.inputs input{
+  background-color: rgb(101, 131, 155);
+  
+}
+.maingigi{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 100px;
+ 
+  width: 100%;
+}
+.gigiinfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+
+
+}
+.gigi{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+   
+
+
+
+}
+
+.hello div{
+
+  padding: 5px;
+}
+.hello{
+  
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.who{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: start;
+  font-size: 45px;
+  gap: 10px;
+}
+.animatedtext{
+ 
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+background-image: linear-gradient(140deg , #67e8f9 , #3b82f6);
+
+ 
+
+}
+
+
+.name{
+  font-size: 18px;
+  font-weight: 700;
+ text-decoration: underline;
+ text-align: start;
+ 
+ width: 100%;
+}
+.hello .desc{
+  min-width: 600px;
+  text-align: start;
+  color: gray;
+}
+.hello{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email{
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.inputbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  border: 1px solid #0badc2;
+  border-radius: 5px;
+  background-color: #1f2937;
+  min-width: 550px;
+}
+.inputbox button{
+  padding: 10px;
+  width: 100px;
+  background-color: #0284c7;
+  
+  
+}
+.sendbtnforemail{
+   min-width: 200px;
+   font-size: 20px;
+   background: linear-gradient(140deg , #3baebd ,  #3b82f6);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+
+}
+.emailtext{
+  overflow: hidden;
+  animation: 
+   cursor 4s infinite alternate
+  ;
+
+
+
+}
+
+.AboutPage{
+  max-width: 1300px;
+  border: .5px solid white;
+
+}
+.aboutborder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.contact{
+  margin-bottom: 150px;
+}
+
+
+
+@keyframes cursor {
+   0%{ width: 0;
+   color: #1f2937;
+  }
+   100%{ width: 300px;
+   
+  }
+  
+}

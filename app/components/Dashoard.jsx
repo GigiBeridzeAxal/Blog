@@ -56,11 +56,11 @@ export default function Dashoard() {
           
    
         {
-            dashboardtype == "Skills" ?   <a class="text-white bg-gray-800 p-4 inline-flex justify-center rounded-md hover:bg-gray-800 hover:text-white smooth-hover" href="#">
+            dashboardtype == "Skills" ?   <a class="text-white bg-gray-800 p-4 inline-flex justify-center rounded-md hover:bg-gray-800 hover:text-white smooth-hover" >
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
             </svg>
-          </a> : <a onClick={() => Skillchange()} class=" cursor-pointer text-white/50  p-4 inline-flex justify-center rounded-md hover:bg-gray-800 hover:text-white smooth-hover" href="#">
+          </a> : <a onClick={() => Skillchange()} class=" cursor-pointer text-white/50  p-4 inline-flex justify-center rounded-md hover:bg-gray-800 hover:text-white smooth-hover" >
             <svg xmlns="http://www.w3.org/2000/svg" class="  h-5 w-5 sm:h-6 sm:w-6" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
             </svg>
@@ -77,16 +77,9 @@ export default function Dashoard() {
       <div class="flex justify-between items-center">
         <h3 class="text-3xl font-extralight text-white/50">Projects</h3>
         <div class="inline-flex items-center space-x-2">
-          <a class="bg-gray-900 text-white/50 p-2 rounded-md hover:text-white smooth-hover" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-            </svg>
-          </a>
-          <a class="bg-gray-900 text-white/50 p-2 rounded-md hover:text-white smooth-hover" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-            </svg>
-          </a>
+
+         
+         
         </div>
       </div>
  {
@@ -101,7 +94,23 @@ Visit
 </button></a>
       <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Online <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
     </div>
-  </div> : <div></div>
+
+    <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
+      <div class=" giaca w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
+      <h4 class="text-white text-2xl font-bold capitalize text-center">Crud Fullstack </h4>
+      <p class="text-white/50">Crud Fullstack App</p>
+      <a href="https://crudfullstackapp.vercel.app/"><button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+Visit
+</button></a>
+      <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Online <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
+    </div>
+
+  </div>
+  
+
+  
+  
+  : <div></div>
  }
  {
     dashboardtype == "Freelancer" ?      <div class="mb-10 sm:mb-0 mt-10 grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -134,10 +143,11 @@ Visit
     <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
       <div class=" nelogo w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
       <h4 class="text-white text-2xl font-bold capitalize text-center">Next.js</h4>
-      <p class= " frontend bg-white p-2 text-black/100">Front-End Development</p>
+      <p class= " frontend bg-white p-2 text-black/100">Back-End Development</p>
   
       <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Fulltime <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
     </div>
+    
 
 
     <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
@@ -168,7 +178,21 @@ Visit
     <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
       <div class=" jalogo w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
       <h4 class="text-white text-2xl font-bold capitalize text-center">Javascript</h4>
-      <p class= " frontend bg-white p-2 text-black/100">Front-End Development</p>
+      <p class= " frontend bg-white p-2 text-black/100">Back-End Development</p>
+  
+      <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Fulltime <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
+    </div>
+    <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
+      <div class=" jalogo w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
+      <h4 class="text-white text-2xl font-bold capitalize text-center">Node.js</h4>
+      <p class= " frontend bg-white p-2 text-black/100">Back-End Development</p>
+  
+      <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Fulltime <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
+    </div>
+    <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
+      <div class=" jalogo w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
+      <h4 class="text-white text-2xl font-bold capitalize text-center">Express.js</h4>
+      <p class= " frontend bg-white p-2 text-black/100">Back-End Development</p>
   
       <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Fulltime <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
     </div>

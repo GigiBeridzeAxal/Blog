@@ -19,7 +19,7 @@ export default function About() {
       </div>
       <div class=" py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-gray-200">Application for</dt>
-        <dd class="mt-1 text-sm leading-6 text-gray-200 sm:col-span-2 sm:mt-0">Front-End Developer</dd>
+        <dd class="mt-1 text-sm leading-6 text-gray-200 sm:col-span-2 sm:mt-0">Fullstack Developer</dd>
       </div>
       <div class=" py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-gray-200">Email address</dt>
@@ -32,7 +32,7 @@ export default function About() {
       </div>
       <div class=" py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-gray-200">About</dt>
-        <dd class="mt-1 text-sm leading-6 text-gray-200 sm:col-span-2 sm:mt-0">გამარჯობა მე ვარ Front-End Developer-ი სწავლა დავიწყე 13 წლიდან მაქვს 3 წლიანი გამოცდილება შეგიძლიათ შეამოწმოთ ჩემი პროექტები </dd>
+        <dd class="mt-1 text-sm leading-6 text-gray-200 sm:col-span-2 sm:mt-0">გამარჯობა მე ვარ Fullstack Developer-ი სწავლა დავიწყე 13 წლიდან მაქვს 3 წლიანი გამოცდილება შეგიძლიათ შეამოწმოთ ჩემი პროექტები </dd>
       </div>
       <div class=" py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
         <dt class="text-sm font-medium leading-6 text-gray-200">Attachments</dt>

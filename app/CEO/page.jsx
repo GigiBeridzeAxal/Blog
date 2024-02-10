@@ -68,7 +68,7 @@ export default function page() {
               Next.js 
             </a>
           </h3>
-          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Next.js is Are React Framework For Better Routing And Styles</p>
+          <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Next.js is Are React Framework For Better Routing And For Backend</p>
         </div>
 
        
