@@ -9,6 +9,17 @@ export default function Gigi() {
   }
 
   return (
+
+    <>
+
+    <div className="lighteffects">
+      <div className="light1"></div>
+      <div className="light2"></div>
+
+    </div>
+    
+   
+
     <div className="gigiinfo">
 
       <div className="maingigi">
@@ -53,6 +64,7 @@ export default function Gigi() {
 
 
 
-    </div>
+    </div> </>
+      
   )
 }

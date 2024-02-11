@@ -96,7 +96,7 @@ Visit
     </div>
 
     <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
-      <div class=" giaca w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
+      <div class=" crudfull w-20 h-20 object-cover object-center rounded-full"  alt="cuisine" /> 
       <h4 class="text-white text-2xl font-bold capitalize text-center">Crud Fullstack </h4>
       <p class="text-white/50">Crud Fullstack App</p>
       <a href="https://crudfullstackapp.vercel.app/"><button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">

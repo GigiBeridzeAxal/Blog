@@ -276,6 +276,14 @@ background-image: linear-gradient(140deg , #67e8f9 , #3b82f6);
   align-items: center;
   justify-content: center;
 }
+.crudfull{
+  background-image: url('./Image/Crudfullstackimage.png');
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
 .email{
   display: flex;
   align-items: center;
@@ -338,6 +346,22 @@ background-image: linear-gradient(140deg , #67e8f9 , #3b82f6);
 }
 .ctnbtn{
   margin: 20px;
+}
+.light1{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  box-shadow: 12px 12px 250px 100px rgb(68, 126, 227);
+  left: 120px;
+  top: 200px;
+}
+.light2{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  box-shadow: 12px 12px 550px 100px rgb(255, 255, 255);
+  right: 120px;
+  top: 800px;
 }
 
 
