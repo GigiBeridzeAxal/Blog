@@ -25,6 +25,9 @@ export default function Gigi() {
          <div className="inputbox"><div className='emailtext' >beridzegigi19@gmail.com</div> <a onClick={ () => Teleport()}  class="sendbtnforemail bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
   Send Message
 </a>  </div>
+<a onClick={ () => Teleport()}  class=" sndbtn sendbtnforemail bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+  Send Message
+</a>
 
 
        </div>

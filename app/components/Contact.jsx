@@ -119,7 +119,7 @@ export default  function Contact() {
 
        </div>
 
-       <button onClick={() => senddata()} id='Contacttag' class="bg-blue-400 hover:bg-blue-300 text-white font-bold py-2 px-4 border-b-4 border-blue-600 hover:border-blue-400 rounded">
+       <button onClick={() => senddata()} id='Contacttag' class=" ctnbtn bg-blue-400 hover:bg-blue-300 text-white font-bold py-2 px-4 border-b-4 border-blue-600 hover:border-blue-400 rounded">
   Send Message
 </button>
 
